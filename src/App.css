@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.logo{
+  position: absolute;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  left: 43em;
+  top: 3em;
+}
+.medium{
+  background-color: #52b788;
+  position: absolute;
+  height: 12em;
+  width: 30em;
+  left: 38em;
+  bottom: 22em;
+}
+.one label{
   color: white;
-}
+  font-size: 15px;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
 
-.App-link {
-  color: #61dafb;
 }
+.one input{
+  background: #52b788;
+  color: white;
+  border: 1px solid white;
+  width: 8rem;
+  height: 2rem;
+  position: absolute;
+  top:2rem ;
+  left: 1rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.two input{
+  background: #52b788;
+  color: white;
+  border: 1px solid white;
+  width: 8rem;
+  height: 2rem;
+  position: absolute;
+  top:2rem ;
+  right: 1rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+
+}
+.two label{
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+.three input{
+  background: #52b788;
+  color: white;
+  border: 1px solid white;
+  width: 8rem;
+  height: 2rem;
+  position: absolute;
+  bottom:2rem ;
+  right: 1rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+.three label{
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  right: 1.7rem;
+  bottom: 4.2rem;
+}
+.four label{
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 1.7rem;
+  bottom: 4.2rem;
+}
+.four input{
+  background: #52b788;
+  color: white;
+  border: 1px solid white;
+  width: 8rem;
+  height: 2rem;
+  position: absolute;
+  bottom:2rem ;
+  left: 1rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
 }
